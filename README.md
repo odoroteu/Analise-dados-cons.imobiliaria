@@ -45,8 +45,10 @@ A remuneração das empresas do setor imobiliário baseia-se no valor de financi
 - 📌 Comparação entre anos  
 - 📌 Segmentação por fonte de cliente  
 
-📷 *Adicione imagens do dashboard aqui!*  
-
+📷
+[Capa](https://github.com/odoroteu/Analise-dados-cons.imobiliaria/img/Capa.png)
+[2025](https://github.com/odoroteu/Analise-dados-cons.imobiliaria/img/2025.png)
+[Geral](https://github.com/odoroteu/Analise-dados-cons.imobiliaria/img/Geral.png)
 ---
 
 ## 🔗 Como visualizar o dashboard?  
