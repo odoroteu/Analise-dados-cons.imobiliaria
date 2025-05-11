@@ -1,64 +1,62 @@
-Prezado, 
+# 📊 Projeto de Análise de Dados - Setor Imobiliário  
 
-O projeto a seguir trata-se de uma análise dados fictícios baseados na metodologia de uma empresa correspondente/parceira bancária no ramo imobiliário. 
+Este projeto realiza uma análise de dados fictícios baseada na metodologia de uma empresa parceira bancária no setor imobiliário.  
 
-Utilizei a estrutura de armazenamento de dados utilizada na última empresa em que trabalhei para realizar o dashboard (devido a LGPD* não pude utilizar os dados reais).
+Os dados foram armazenados seguindo a estrutura da minha última experiência profissional, com tratamento via PowerQuery e modelagem no Power BI.
 
+---
 
-Passos realizados para construção do Dashboard a seguir:
+## 🚀 Objetivo  
+A remuneração das empresas do setor imobiliário baseia-se no valor de financiamento. Este dashboard fornece informações estratégicas para gestores tomarem decisões sobre:  
 
-1° Tratamento dos dados recebidos, em excel, via PowerQuery.
-2° Modelagem dos dados, relacionamento entre as tabelas existentes. 
-3° Criação das principais métricas utilizadas neste mercado, via DAX
-4° Criação dos visuais (gráficos)
+- **Bancos**: Identificação dos bancos com maior volume de financiamento e suas condições.  
+- **Fontes de Clientes**: Segmentação por canal de entrada do cliente.  
+- **Corretores**: Ranking dos corretores mais ativos no período.  
 
-OBS: O background utilizado gerei com auxilio da ferramenta 
+---
 
-OBJETIVO:
-Como a remuneração de empresas desse segmento é em baseado no valor de financiamento os indicadores as métricas são baseados neste valor. 
+## 🔧 Tecnologias Utilizadas  
+✅ **PowerQuery** → Tratamento e limpeza de dados  
+✅ **Power BI** → Modelagem e visualização  
+✅ **DAX** → Criação de métricas  
 
-Para fornecer informações relevantes ao gestor na tomada de informações: 
+---
 
-Bancos:
-Verificar quais os bancos possuem maior volume de financiamento. Esta informação nos permite inferir quais o bancos com melhores condições (taxa de juros efetiva, nível de restrição, percentual de financiamento permitido). 
+## 📈 Passos para Construção  
+1. **Tratamento dos dados** (Excel → PowerQuery).  
+2. **Modelagem e relacionamento das tabelas**.  
+3. **Criação de métricas principais** via DAX.  
+4. **Desenvolvimento dos gráficos e visuais**.  
 
-Fonte de Cliente(Canais de Cliente):
-Estabelecido as formas de chegada do cliente, conseguimos verificar o volume por segmentação. Através desta informação podemos verificar a contribuição por segmentação, informação extremamente relevante para empresa para tomada de decisões em relação a cada nicho mercado e como agir. 
+---
 
-Corretor: 
-Semelhante ao visto em forma de cliente, conseguimos verificar os principais corretores imobiliários. A informação do corretor traz um pouco mais de detalhamento a informação (algo mais específico), por se tratar de mercado imobiliário, podemos ter corretores autônomos, imobiliárias, desta forma conseguimos analisar aqueles mais ativos com a empresa seguir.
+## 📊 Visualizações  
 
+### **Visual 01 - Meta 2025**  
+- 📌 Percentual da meta realizada  
+- 📌 Volume total financiado  
+- 📌 Quantidade de processos (clientes)  
+- 📌 Ticket médio  
+- 📌 Comparativo mensal (Ano atual x Ano anterior)  
+- 📌 Ranking de corretores  
 
-Baseado nestas informações, criamos os seguintes informações:
+### **Visual 02 - Geral**  
+- 📌 Volume de financiamento acumulado  
+- 📌 Comparação entre anos  
+- 📌 Segmentação por fonte de cliente  
 
-Visual 01 (2025)
+📷 *Adicione imagens do dashboard aqui!*  
 
-Baseado na meta estabelecida pela empresa, apresentamos baseado nas informações citadas as seguintes informações
+---
 
+## 🔗 Como visualizar o dashboard?  
+**Para acessar o arquivo**, siga estas instruções:  
+1. Baixe o arquivo Power BI no repositório.  
+2. Abra no Power BI Desktop.  
+3. Explore os filtros e gráficos interativos.  
 
-Acumulado baseado até o mês escolhido. 
-- O  quanto já foi realizado da meta em percentual
-- O volumen de financiamento total até o presente mês escolhido
-- N° de processos(Quantidade de clientes) até o momento
-- Ticket Médio: O valor médio de financiamento por cada processo, informação muito importante para o setor comercial ter uma ideia de quantos cliente mensalmente precisa conquistar.
-- Valor da meta definida.
+---
 
-Já através dos gráficos apresentamos:
-Comparativo mês x mês do ano atual com o ano anterior
-Acumulado do volume de financiamento por banco
-Acumulado do volume de financiamente por fonte de indicação
-Ranking dos principais corretores até o momento definido
-
-Já no visual 02 (Geral), apresentamos:
-
-Coloquei esse nome "Geral" por se tratar de uma visualização mais ampla. 
-
-Realizmos o comparativo do volume de financiamento, número de processos e ticket médio, tanto em valor, como em % com o ano anterior.
-
-Já nos gráficos apresentamos o volume de financiamento de toda base de dados, por ano. 
-
-Realizamos o comparativo do ano atual com o ano anterior de forma geral, sem filtrar os meses que não foram selecionados. Na parte de banco, apresentamos da mesma forma. 
-
-
-Já no cenário de Fonte de Cliente apresentamos comparando com a meta.
-
+## 📌 Observação  
+- 🚨 Os dados são fictícios devido à **LGPD**.  
+- 🔹 O background foi gerado com ferramentas externas.
