@@ -1,4 +1,4 @@
-# 📊 Projeto de Análise de Dados - Setor Imobiliário  
+# 📊 Projeto de Análise de Dados - Consultoria Imobiliária
 
 Este projeto realiza uma análise de dados fictícios baseada na metodologia de uma empresa parceira bancária no setor imobiliário.  
 
